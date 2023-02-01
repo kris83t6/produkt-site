@@ -1,7 +1,7 @@
 
 
     header{
-    background-color: #fff9fb;
+    background-color: #F3F3F3;
 }
 
 li {
@@ -9,9 +9,9 @@ li {
 }
 
 a{
-    color:#00178C;
+    color:#303234;
     text-decoration: none;
-    font-family: 'roller_girfreepersonalusedemo';
+    font-family: 'made_mountainregular';
 } 
 
 a:hover{
@@ -29,7 +29,7 @@ margin: 1rem;
 
 .nav-menu{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     gap: 11.5rem;
   
@@ -47,7 +47,7 @@ margin: 1rem;
     margin:5px auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
-    background-color: #00178C;
+    background-color: #303234;
 }   
 
 @media (max-width:800px){
@@ -70,7 +70,7 @@ margin: 1rem;
         top:100px;
         gap:0;  
         flex-direction: column;
-        background-color: #fff9fb;
+        background-color: #F3F3F3;
         width:100%;
         text-align: center; 
         transition:0.3s;  
