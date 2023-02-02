@@ -1,7 +1,80 @@
 .logo{
-    height:50%;
-    width:auto;
+    height:auto;
+    width:7%;
     display:block
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.products_grid {
+  display: grid;
+  grid-template-columns: 0.5fr 4fr;
+  gap: 5rem;
+}
+
+.products_flex {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.category_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 0 0;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 1.8;
+}
+
+.category > a {
+  padding: 1rem;
+  background-color: #F3F3F3;
+  border: 1px solid #303234;
+  border-radius: 5%;
+}
+
+.krumme{
+    font-size: 1rem;
+    font-family: 'Martel Sans', sans-serif;
+    color: #63666a;
+}
+
+.product{
+display: grid;
+justify-content: center;
+grid-template-columns: 1fr 1fr;
+gap:2rem;
+}
+
+.size{
+  padding: 1rem;
+  background-color: #F3F3F3;
+  border: 1px solid #303234;
+  border-radius: 5%;
+}
+
+.size_flex {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex: 0 0;
+  flex-wrap: wrap;
+  gap: 1rem;
+  font-size: 0.75rem;
+  line-height: 1;
+}
+
+.sold{
+    opacity: 0.5;
+    color: red;
+    
 }
 
 /*** FONTS ***/

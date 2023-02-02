@@ -7,8 +7,40 @@
 body{
     background-color: #F3F3F3;
     margin:1.5rem;
+    padding:1rem;
 }
 
 p{
     font-family: 'Martel Sans', sans-serif;
+    color:#303234;
+}
+
+h1{
+    font-size:2rem;
+    color:#303234;
+    font-family: 'made_mountainregular';
+}
+
+h2{
+   font-family: 'made_mountainregular';
+   color: #303234;
+}
+
+h3{
+    font-family: 'made_mountainregular';
+    font-size: 1.2rem;
+    font-weight: lighter;
+    color:#303234;
+}
+
+.grid_list{
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+gap:20px;
+margin: 0 3rem 20px 3rem;
+width: 80%;
+height:auto;
+padding: 1rem;
+cursor: pointer;
+
 }
