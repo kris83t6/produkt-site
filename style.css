@@ -69,7 +69,11 @@ img {
 .sold{
     opacity: 0.5;
     color: red;
-    
+    content:Sold out
+}
+
+.footer{
+  margin-top: 2rem;
 }
 
 /*** FONTS ***/

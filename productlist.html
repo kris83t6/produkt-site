@@ -35,7 +35,7 @@
     <main>
         <h2 class="krumme"><a href="#">Front page</a> > <a href="category.html">Categories</a> > <a
                 href="productlist.html">Products</a></h2>
-                <br>
+        <br>
         <section class="products_grid">
             <div class="products_flex">
 
@@ -51,59 +51,24 @@
                 <a href="">Shoes</a>
                 <a href="">Socks</a>
             </div>
-
-
-            <div class="grid_list">
-                <div>
-                    <img src="https://kea-alt-del.dk/t7/images/webp/1000/1529.webp" alt="#">
+        </section>
+        <div class="grid_list">
+            <template id="smallProductTemplate" class="gridlist">
+                <article class="smallProduct">
+                    <img class="img" src="#" alt="#">
                     <p>Puma</p>
                     <h3>Casual apparel - T-shirt</h3>
-                    <p>1.899,00 kr</p>
-                </div>
+                    <p class="price"></p>
+                </article>
+            </template>
+        </div>
 
-                <div>
-                    <img src="https://kea-alt-del.dk/t7/images/webp/1000/1532.webp" alt="">
-                    <p>Puma</p>
-                    <h3>Sports apparel - Grey Leaping Cat T-shirt</h3>
-                    <p>899,00 kr</p>
-                </div>
-
-                <div>
-                    <img src="https://kea-alt-del.dk/t7/images/webp/1000/1530.webp" alt="">
-                    <p>Puma</p>
-                    <h3>Sports apparel - Track Jacket</h3>
-                    <p>4.299,00 kr</p>
-
-                </div>
-
-                <div class="sold">
-                    <img src="https://kea-alt-del.dk/t7/images/webp/1000/1528.webp" alt="">
-                    <h2 class="sold ">Sold out</h2>
-                    <p>Nike</p>
-                    <h3>Black Fleece Jacket</h3>
-                    <p>3.999,00 kr</p>
-                </div>
-
-                <div>
-                    <img src="https://kea-alt-del.dk/t7/images/webp/1000/1525.webp" alt="">
-                    <p>Puma</p>
-                    <h3>Deck Navy Blue Backpack</h3>
-                    <p>1.299,00 kr</p>
-                </div>
-
-                <div>
-                    <img src="https://kea-alt-del.dk/t7/images/webp/1000/1526.webp" alt="">
-                    <p>Nike</p>
-                    <h3>Big Cat Backpack Black</h3>
-                    <p>1.299,00 kr</p>
-                </div>
-            </div>
-        </section>
     </main>
-    <footer>
+    <footer class="footer">
         <p>07.01.01: Statisk Produkt Site ©Kristine Malling Laursen</p>
 
     </footer>
+    <script src="js/productlist.js  "></script>
     <script src="js/script.js"></script>
 </body>
 
