@@ -22,6 +22,11 @@ img {
   gap: 0.75rem;
 }
 
+.products_BG{
+  padding: 1rem;
+  background-color: #F3F3F3;
+}
+
 .category_flex {
   display: flex;
   justify-content: center;
@@ -68,8 +73,20 @@ img {
 
 .sold{
     opacity: 0.5;
-    color: red;
-    content:Sold out
+}
+
+.soldout{
+  color:red;
+  font-size: 1.25rem;
+  font-weight: bold;
+  background-color: #e4dddd;
+  border: 1rem #303234;
+  border-radius: 5%;
+  width:40%;
+}
+
+.vanish{
+  display: none;
 }
 
 .footer{
