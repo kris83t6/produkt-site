@@ -30,6 +30,7 @@ function showProduct(product) {
     copy.querySelector(".discount").textContent = "Spar " + product.discount + " kr";
   }
 
+  copy.querySelector(.link_product)
   //appende
   document.querySelector(".grid2").appendChild(copy);
 }
