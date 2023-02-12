@@ -1,4 +1,8 @@
-fetch("https://kea-alt-del.dk/t7/api/products")
+const urlParams = new URLSearchParams(window.location.search);
+const category = urlParams.get("category");
+
+//henter data
+fetch("https://kea-alt-del.dk/t7/api/products?category=" + category)
   .then((response) => response.json())
   .then((data) => showProducts(data));
 
@@ -30,19 +34,13 @@ function showProduct(product) {
     copy.querySelector(".discount").textContent = "Spar " + product.discount + " kr";
   }
 
-  copy.querySelector(.link_product)
+  copy.querySelector(".read_more").setAttribute("href", `product.html?id=${product.id}`);
+  
   //appende
   document.querySelector(".grid2").appendChild(copy);
 }
 
-/*
-  <article class="smallProduct">
-        <img src="https://kea-alt-del.dk/t7/images/webp/1000/1529.webp" alt="#">
-        <p>Puma</p>
-        <h3>Casual apparel - T-shirt</h3>
-        <p>1.899,00 kr</p>
-    </article>
-    */
+
 
 /*
 {

@@ -14,3 +14,6 @@ document.querySelectorAll(".nav-link").forEach((n) =>
     navMenu.classList.remove("active");
   })
 );
+
+
+//productlist link i menu 
